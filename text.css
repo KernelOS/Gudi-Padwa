@@ -1,0 +1,136 @@
+body{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	background: #FFFFFF;
+}
+h1{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #FF0000;
+	text-align: center;
+}
+h2{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	color: #FF0000;
+	text-align: center;
+}
+h3{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #000000;
+	text-align: justify;
+}
+h6{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	color: #000000;
+	text-align: center;
+}
+p{
+	color: #000000;
+	text-align: justify;
+}
+ul{
+	color: #000000;
+	text-align: justify;
+}
+h1{
+	/*padding: 0px;
+	margin: 0px;*/
+	font-size: 50px;
+	color: #FF0000;
+	text-align: center;
+}
+h2{
+	/*padding: 0px;
+	margin: 0px;*/
+	font-size: 20px;
+	color: #FF0000;
+	text-align: center;
+}
+h1 span{
+	opacity: 0;
+	display: inline-block;
+	animation: amin5 0s linear forwards;
+}
+@keyframes amin5{
+	0%{
+		opacity: 0;
+		transform: rotateX(-90deg);
+	}
+	100%{
+		opacity: 1;
+		transfoem: rotateX(0deg);
+	}
+}
+h2{
+	opacity: 0;
+	display: block;
+	animation: amin6 4s linear forwards;
+}
+@keyframes amin6{
+	0%{
+		opacity: 0;
+		transform: rotateY(-180deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateY(0deg);
+	}
+}
+h3{
+	opacity: 0;
+	animation: amin7 5s linear forwards;
+}
+@keyframes amin7{
+	0%{
+		opacity: 0;
+		transform: rotateZ(-90deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateZ(0deg);
+	}
+}
+p{
+	opacity: 0;
+	animation: amin8 10s linear forwards;
+}
+@keyframes amin8{
+	0%{
+		opacity: 0;
+		transform: rotateX(90deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0deg);
+	}
+}
+ul{
+	opacity: 0;
+	animation: amin9 10s linear forwards;
+}
+@keyframes amin9{
+	0%{
+		opacity: 0;
+		transform: rotateX(90deg);
+	}
+	100%{
+		opacity: 1;
+		transform: rotateX(0deg);
+	}
+}
+h1 span:nth-child(1){
+	animation-delay: 1s;
+}
+h1 span:nth-child(2){
+	animation-delay: 1.5s;
+}
+h1 span:nth-child(3){
+	animation-delay: 2s;
+}
+h1 span:nth-child(4){
+	animation-delay: 2.5s;
+}
+h1 span:nth-child(5){
+	animation-delay: 3s;
+}
+h1 span:nth-child(6){
+	animation-delay: 3.5s;
+}
